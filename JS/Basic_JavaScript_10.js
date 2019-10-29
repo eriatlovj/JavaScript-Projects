@@ -1,6 +1,11 @@
-var f = myFunction(6, 9); 
+let car = {
+  make: "Dodge ",
+  model: "Viper ",
+  year: "2021 ",
+  color: "red ",
+  description: function() {
+    return "The car is a " + this.year + this.color + this.make + this.model;
+  }
+};
 
-function myFunction(a, b) {
-  return b * a;   
-}  
-document.getElementById("demo").innerHTML = f;
+document.getElementById("Car_Object").innerHTML = car.description();
