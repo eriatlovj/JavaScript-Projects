@@ -1,1 +1,0 @@
-document.getElementById("Math").innerHTML = Math.floor(84.4);
