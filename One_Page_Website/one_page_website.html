@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nebula M78: The Land of Light<br>
+    The Home of Ultraman!
+</title>
+<link rel="stylesheet" href="./one_page_website.css">
+<h1 align="center">Nebula M78: The Land of Light<br>
+      Welcome to the Home of Ultraman!</h1>
+  <meta charset="utf-8"> 
+</head>
+<!--NAV-->
+<div align="center">
+  <style>
+    ul#home li {
+      display:inline;
+    }
+    </style>
+  <h2 align="center"></h2>
+    <ul id="home">
+      <a href="#home" id="link"><li>[HOME]</li></a>
+    </ul>
+    <style>
+        ul#about li {
+          display:inline;
+        }
+        </style>
+        <h2 align="center"></h2>
+    <ul id="about">
+        <a href="#about" id="link"><li>[ABOUT]</li></a>
+    </ul>
+    <style>
+        ul#gallery li {
+          display:inline;
+        }
+        </style>
+        <h2 align="center"></h2>
+    <ul id="gallery">
+        <a href="#gallery" id="link"><li>[GALLERY]</li></a>
+    </ul>
+  </div>
+  <!--END NAV-->
+
+  <!--MAIN MENU-->
+<body>
+    <script src="./JS/one_page_website.js"></script>
+    <h1 align=center>Home</h1>
+    <p align="center">Welcome to Nebula M78: The Land of Light!</p>
+    <p align="center"><img src="./img/img1.png" alt="land of light"></p>
+    <p align="center"><em>THE LAND OF LIGHT</em></p><br>
+
+    <h1 id=“About Section” align="center">About</h1>
+    <p align="center">The Land of Light, also known as The Star of Ultra or Planet Ultra,<br>
+      is the homeworld of the Ultras of Nebula M78.</p>
+    <p align="center"><img src="./img/img.jpeg" alt="ultra family"></p>
+    <p align="center"><em>THE ULTRA FAMILY</em></p><br>
+    
+    <h2 id=“Gallery Section” align="center">Gallery</h2>
+    <p align="center">Famous locations at the Land of Light</p>
+    <!--PHOTO CONTAINER-->
+    <div class="row">
+        <div class="column">
+          <img src="./img/img2.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./img/img3.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./img/img4.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./img/img6.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="./img/img5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+              <img src="./img/img7.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+                <img src="./img/img8.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 7</div>
+            <img src="./img/img2.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 7</div>
+            <img src="./img/img3.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 7</div>
+            <img src="./img/img4.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 7</div>
+            <img src="./img/img6.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+              <div class="numbertext">5 / 7</div>
+              <img src="./img/img5.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+                <div class="numbertext">6 / 7</div>
+                <img src="./img/img7.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+                  <div class="numbertext">7 / 7</div>
+                  <img src="./img/img8.png" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="./img/img2.png" style="width:100%" onclick="currentSlide(1)" alt="SPACE GARRISON HEADQUATERS">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./img/img3.png" style="width:100%" onclick="currentSlide(2)" alt="ULTRA COLOSSEUM">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./img/img4.png" style="width:100%" onclick="currentSlide(3)" alt="PLASMA SPARK TOWER">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./img/img6.png" style="width:100%" onclick="currentSlide(4)" alt="SPACE PRISON">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./img/img5.png" style="width:100%" onclick="currentSlide(5)" alt="ULTRA SPACE PORT">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./img/img7.png" style="width:100%" onclick="currentSlide(6)" alt="ULTRA TOWER">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./img/img8.png" style="width:100%" onclick="currentSlide(7)" alt="TEMPLE OF LIGHT">
+          </div>
+        </div>
+      </div>
+      
+<!--END OF PHOTO CONTAINER-->
+<!--VIDEO-->
+<p align="center"><em>Watch the Ultra Family in action in their home planet</em></p>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/wX0mkV356ZI?start=107" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <p align="center"><em>THE ULTRA FAMILY IN ACTION</em></p><br>
+    <!--END OF VIDEO-->
+
+    <!--END OF MAIN MENU-->
+
+    <!--CONTACT FORM-->
+    <section>
+        <div id="contact">
+          <div>
+            <h5 align="center">Do you want to be updated of the latest Land of Light news?</h5>
+            <div>
+              <h4 align="center"><span>Subscribe to our weekly newsletter.</span></h4>
+            <p align="center">
+              Please provide us with your basic contact information.<br>
+              We will keep you updated about the Land of Light.
+            </p>
+            <div>
+                <form action="/action_page.php">
+                  <div class="container"></div>
+                
+                  <div class="container" style="background-color:white">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <label>
+                      <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+                    </label>
+                  </div>
+                
+                  <div class="container">
+                    <input type="submit" value="Subscribe">
+                  </div>
+                </form>
+              <!--END OF CONTACT FORM-->
+              <footer>
+                  <p align="center">Posted by: Shin Hayata</p>
+                  <p align="center">Contact information: <a href="mailto:shinhayata@imnotultraman.com">
+                  shinhayata@imnotultraman.com</a>.</p>
+                </footer>
+</body>
+</html>
