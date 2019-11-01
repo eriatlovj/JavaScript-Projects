@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script> 
+                $(document).ready(function(){
+                $("#flip").click(function(){
+                $("#panel").slideDown("slow");
+                });
+            });
+            </script>
+                <style> 
+                #panel, #flip {
+                padding: 5px;
+                text-align: center;
+                background-color: #70d2eb;
+                border: solid 1px #e728ce;
+                }
+            
+                #panel {
+                padding: 40px;
+                display: none;
+                }
+                </style>
+        </head>
+    <body>
+             
+        <div id="flip">Show me the money</div>
+        <div id="panel"><span style='font-size:300px;'>&#129297;</span></div>
+
+</body>
+</html>
